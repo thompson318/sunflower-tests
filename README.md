@@ -1,3 +1,14 @@
+Plan: 
+
+Give them a fibonacci function (simple look up table) (fib_look up)
+write some unit tests to make sure it works.
+
+Then we want to add a new feature, we want to make it work for an arbitray number
+Create a parametrised unit test, then modify the function to make it pass.
+
+Create an example of an integration test. (compare sunflower images).
+
+
 In this exercise, you will be given a few lines of code that perform a certain task (that you will have to understand) and then write an automated test that checks whether that task is performed correctly.
 
 ## Step 0
