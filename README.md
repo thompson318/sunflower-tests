@@ -1,5 +1,17 @@
 INSTALLATION
 
+We recomend using uv to install and run this.
+
+Download [uv](https://docs.astral.sh/uv/getting-started/installation/)
+
+clone the repository `git clone https://github.com/thompson318/sunflower-tests.git`
+
+create virtual environment `uv venv`
+
+`source .venv/bin/activate`
+
+uv pip install -r requirements.txt
+
 use uv
 https://docs.astral.sh/uv/guides/projects/
 
