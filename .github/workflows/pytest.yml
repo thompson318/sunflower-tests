@@ -18,4 +18,4 @@ jobs:
       - name: Install dependencies
         run: pip install pytest
       - name: run pytest
-        run: pytest
+        run: pytest tests/*
