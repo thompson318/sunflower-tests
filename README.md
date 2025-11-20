@@ -1,3 +1,10 @@
+INSTALLATION
+
+use uv
+https://docs.astral.sh/uv/guides/projects/
+
+
+
 Plan: 
 
 Give them a fibonacci function (simple look up table) (fib_look up)
@@ -11,6 +18,11 @@ Create an example of an integration test. (compare sunflower images).
 
 In this exercise, you will be given a few lines of code that perform a certain task (that you will have to understand) and then write an automated test that checks whether that task is performed correctly.
 
+
+Image attribution: By Fir0002 - Own work, GFDL 1.2, https://commons.wikimedia.org/w/index.php?curid=7613324
+
+Emoji One, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+ 
 ## Step 0
 
 Make sure you have read the note chapters on [Testing basics](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/ch03tests/01testingbasics.html), [The Fields of Saskatchewan](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/ch03tests/02SaskatchewanFields.html) and [Test frameworks](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/ch03tests/03pytest.html).
