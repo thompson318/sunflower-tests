@@ -1,13 +1,16 @@
 from time import sleep
 from shutil import copyfile
-import sunflower.fibonacci
+from sunflower.fibonacci import fibonacci
 
-delay = 0
+# the delay is there to create the impression of 
+# a more complex algorithm.
+delay = 1
 
-def make_sunflower():
+def make_sunflower(rings):
     print("Starting sunflower generation.")
     sleep(delay)
     print("Creating Fibonacci sequence.")
+    fibonacci(rings)
     sleep(delay)
     print("Adding seeds.")
     sleep(delay)
@@ -15,5 +18,5 @@ def make_sunflower():
     sleep(delay)
     with open("sunflower/data/data.dat", "r") as filein:
         sunflower = filein.read()
-    return sunflower
     print("Sunflower complete.")
+    return sunflower

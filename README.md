@@ -3,9 +3,23 @@ INSTALLATION
 use uv
 https://docs.astral.sh/uv/guides/projects/
 
+write uv instructions here
+
+Aim to cover
+Integration / end to end testing vs unit testing
+
+next steps: could look at mocking tests to enable us to unit test later steps
 
 
 Plan: 
+
+Installation. 
+
+Run main program 
+
+Look at output Discuss how we could test that it is performing as expected.
+
+Have a look at the test_integration.py file.
 
 Give them a fibonacci function (simple look up table) (fib_look up)
 write some unit tests to make sure it works.

@@ -3,7 +3,7 @@ from shutil import copyfile
 import sunflower.maker
 
 if __name__ == "__main__":
-    sunflower = sunflower.maker.make_sunflower()
+    sunflower = sunflower.maker.make_sunflower(0)
     with open("sunflower.svg", 'w') as file:
         file.write(sunflower)
     print("Output written to sunflower.svg")
