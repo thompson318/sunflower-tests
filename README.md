@@ -24,17 +24,12 @@ It should look like this ...
 
 ## Consider how we can test this code.
 
-write uv instructions here
+The repository is set up to allow you to use `pytest` to test your code locally ...
 
-Aim to cover
-Integration / end to end testing vs unit testing
+```
+pytest
+```
 
-next steps: could look at mocking tests to enable us to unit test later steps
-
-
-Plan: 
-
-Installation. 
 
 Run main program 
 
