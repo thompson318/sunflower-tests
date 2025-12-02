@@ -11,16 +11,18 @@ If you haven't already done so please follow these [instructions](https://docs.a
 
 ```
 git clone https://github.com/thompson318/sunflower-tests.git  # clone the repository
+cd sunflower-tests                                            # enter the directory
 uv venv                                                       # create a virtual environment               
 source .venv/bin/activate                                     # and activate it
 uv pip install -r requirements.txt                            # use uv to install necessary libraries
+python sunflower_maker.py                                     # run the code.
 ```
 
+Running the program should have created the file `sunflower.svg`. You should be able to view it with it with a image viewer or webrowser. 
+It should look like this ...
 <img src="tests/data/sunflower-expected.svg" width="200" height="200" alt="An image of a sunflower"/>
 
-use uv
-https://docs.astral.sh/uv/guides/projects/
-
+## Consider how we can test this code.
 
 write uv instructions here
 
