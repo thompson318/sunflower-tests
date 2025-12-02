@@ -1,5 +1,7 @@
 INSTALLATION
 
+![A qr Tag leading to this repository.](images/qr_code.png)
+
 We recomend using uv to install and run this.
 
 Download [uv](https://docs.astral.sh/uv/getting-started/installation/)
