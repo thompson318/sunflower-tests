@@ -1,21 +1,26 @@
-INSTALLATION
+# Sunflower Tests - A Small Repository for Exploring Test Methods
 
-![A qr Tag leading to this repository.](images/qr_code.png)
+## Installation
 
-We recomend using uv to install and run this.
+You can use the qr tag to link to this page.
 
-Download [uv](https://docs.astral.sh/uv/getting-started/installation/)
+<img src="images/qr_code.png" width="200" height="200" alt="A QR tag linking to this repository."/>
 
-clone the repository `git clone https://github.com/thompson318/sunflower-tests.git`
+We recomend using [uv](https://docs.astral.sh/uv/) to install and run this software.
+If you haven't already done so please follow these [instructions](https://docs.astral.sh/uv/getting-started/installation/) to install uv.
 
-create virtual environment `uv venv`
+```
+git clone https://github.com/thompson318/sunflower-tests.git  # clone the repository
+uv venv                                                       # create a virtual environment               
+source .venv/bin/activate                                     # and activate it
+uv pip install -r requirements.txt                            # use uv to install necessary libraries
+```
 
-`source .venv/bin/activate`
-
-uv pip install -r requirements.txt
+<img src="tests/data/sunflower-expected.svg" width="200" height="200" alt="An image of a sunflower"/>
 
 use uv
 https://docs.astral.sh/uv/guides/projects/
+
 
 write uv instructions here
 
