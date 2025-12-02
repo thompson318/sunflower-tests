@@ -30,39 +30,27 @@ The repository is set up to allow you to use `pytest` to test your code locally 
 pytest
 ```
 
+And a github actions [workflow](.github/workflows/pytest.yml) to enable running tests using GitHubs CI test machines. 
 
-Run main program 
+For the remainder of the session we will create new tests and use test driven development to add new features using those tests. 
+Start by creating your own fork of the repository using GitHub's web interface. You will then add tests and code to your own fork 
+before creating a pull request and observing test behavior. 
 
-Look at output Discuss how we could test that it is performing as expected.
+### Excercise 1. Build an end to end test.
 
-Have a look at the test_integration.py file.
+### Excercise 2. Create a test for the fibonacci function.
 
-Give them a fibonacci function (simple look up table) (fib_look up)
-write some unit tests to make sure it works.
-
-Then we want to add a new feature, we want to make it work for an arbitray number
-Create a parametrised unit test, then modify the function to make it pass.
-
-Create an example of an integration test. (compare sunflower images).
-
-
-In this exercise, you will be given a few lines of code that perform a certain task (that you will have to understand) and then write an automated test that checks whether that task is performed correctly.
+### Excercise 3. Extend the test to higher (arbitrary) values of rank and use the test as you reimplement the fibonacci function to work on any rank value.
 
 
 Image attribution: By Fir0002 - Own work, GFDL 1.2, https://commons.wikimedia.org/w/index.php?curid=7613324
 
 Emoji One, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
  
-## Step 0
 
-Make sure you have read the note chapters on [Testing basics](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/ch03tests/01testingbasics.html), [The Fields of Saskatchewan](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/ch03tests/02SaskatchewanFields.html) and [Test frameworks](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/ch03tests/03pytest.html).
-
-If you haven't already, fork this repository and clone it on your computer.
 
 ## Step 1: Understanding the existing code
 - Spend some time reading the code, try to run it and see whether you understand what's going on.
-- Have you seen [`datetime`](https://docs.python.org/3.7/library/datetime.html) before?
-- Play using your favourite tool (notebook, terminal, scripts) with the functions and objects used in `times.py`.
 
 ## Step 2: Writing a unit test
 
