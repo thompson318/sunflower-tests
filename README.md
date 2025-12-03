@@ -53,6 +53,7 @@ When ready you can create a pull request back to this repository for review and 
 
 ### Excercise 3. Extend the test to higher (arbitrary) values of rank and use the test as you reimplement the fibonacci function to work on any rank value.
 
+### Extensions. Think about other things that may go wrong. What do we expect the function to do if we pass a non integer or negative value. How do we test to make sure that happens?
 
 ## Further Reading and tests in other languages.
 
