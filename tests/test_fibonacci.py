@@ -33,3 +33,15 @@ def test_valid_fib_input(rank, expected):
 
     # ASSERT
     assert res == expected
+
+
+float_fibs = list(map(float, expected_fib))
+@pytest.mark.parametrize("rank, expected", enumerate(float_fibs))
+def test_float_input_passes(rank, expected):
+    # ARRANGE
+
+    # ACT
+    res = sunflower.fibonacci.fibonacci(rank)
+
+    # ASSERT
+    assert res == expected
