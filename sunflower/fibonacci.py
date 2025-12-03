@@ -2,8 +2,7 @@ import sys
 import typing
 
 def fibonacci(rank):
-    if not isinstance (rank, int):
-        raise TypeError("fibonacci needs integer values")
+    rank = int(rank)
     if not rank in range(6):
         raise ValueError("fibonacci only works for positive values up to 5")
 

@@ -1,9 +1,13 @@
 from time import sleep
-from shutil import copyfile
+import sys
 import sunflower.maker
 
+
 if __name__ == "__main__":
-    sunflower = sunflower.maker.make_sunflower(0)
+    rank = 0
+    if len(sys.argv) > 1:
+        rank = sys.argv[1]
+    sunflower = sunflower.maker.make_sunflower(rank)
     with open("sunflower.svg", 'w') as file:
         file.write(sunflower)
     print("Output written to sunflower.svg")
