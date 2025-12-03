@@ -43,6 +43,11 @@ before creating a pull request and observing test behavior.
 ### Excercise 3. Extend the test to higher (arbitrary) values of rank and use the test as you reimplement the fibonacci function to work on any rank value.
 
 
+## Further Reading and tests in other languages.
+
+[Further Reading](resources.md)
+
+## Acknowledgements
 Image attribution: By Fir0002 - Own work, GFDL 1.2, https://commons.wikimedia.org/w/index.php?curid=7613324
 
 Emoji One, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
