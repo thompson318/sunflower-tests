@@ -1,6 +1,7 @@
 from time import sleep
 from shutil import copyfile
 from sunflower.fibonacci import fibonacci
+from sunflower.drawer import draw
 
 # the delay is there to create the impression of 
 # a more complex algorithm.
@@ -16,14 +17,6 @@ def make_sunflower(rank):
     sleep(delay)
     print("Creating petals.")
     sleep(delay)
-    with open("sunflower/data/data.dat", "r") as filein:
-        sunflower = filein.read()
-    size = 64
-    scale = 1
-    if int(rank) > 0:
-        size = size + 32 * int(rank)
-        scale = scale + 0.5 * int(rank)
-    sunflower = sunflower.replace("size", str(size))
-    sunflower = sunflower.replace("myscale", str(scale))
+    sunflower = draw(rank)
     print("Sunflower complete.")
     return sunflower
