@@ -4,7 +4,7 @@ from sunflower.fibonacci import fibonacci
 
 # the delay is there to create the impression of 
 # a more complex algorithm.
-delay = 0
+delay = 1
 
 def make_sunflower(rank):
     print("Starting sunflower generation.")
@@ -18,7 +18,12 @@ def make_sunflower(rank):
     sleep(delay)
     with open("sunflower/data/data.dat", "r") as filein:
         sunflower = filein.read()
-    sunflower = sunflower.replace("size", "64")
-    sunflower = sunflower.replace("myscale", "1")
+    size = 64
+    scale = 1
+    if int(rank) > 0:
+        size = size + 32 * int(rank)
+        scale = scale + 0.5 * int(rank)
+    sunflower = sunflower.replace("size", str(size))
+    sunflower = sunflower.replace("myscale", str(scale))
     print("Sunflower complete.")
     return sunflower
