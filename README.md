@@ -39,8 +39,13 @@ pytest
 And a github actions [workflow](.github/workflows/pytest.yml) to enable running tests using GitHubs CI test machines. 
 
 For the remainder of the session we will create new tests and use test driven development to add new features using those tests. 
-Start by creating your own fork of the repository using GitHub's web interface. You will then add tests and code to your own fork 
-before creating a pull request and observing test behavior. 
+
+
+### Setup.
+Start by creating your own fork of the repository using GitHub's web interface.
+Clone the fork to your machine, and start coding with your editor / IDE of choice.
+You can create tests and code, test locally, then push to Github, where the tests should run using GitHub's CI machines.
+When ready you can create a pull request back to this repository for review and discussion.
 
 ### Excercise 1. Build an end to end test.
 
