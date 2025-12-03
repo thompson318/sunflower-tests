@@ -22,6 +22,12 @@ Running the program should have created the file `sunflower.svg`. You should be 
 It should look like this ...
 <img src="tests/data/sunflower-expected.svg" width="200" height="200" alt="An image of a sunflower"/>
 
+You should be able to change the size of the image by passing an extra command line parameter (an integer from 0 to 5)
+
+```
+python sunflower_maker.py 4
+```
+
 ## Consider how we can test this code.
 
 The repository is set up to allow you to use `pytest` to test your code locally ...
